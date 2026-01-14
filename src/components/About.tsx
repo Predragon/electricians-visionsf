@@ -19,6 +19,15 @@ const About: React.FC<AboutProps> = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Column - Story */}
           <div className="space-y-6">
+            {/* Hero Image */}
+            <div className="rounded-2xl overflow-hidden shadow-lg">
+              <img
+                src="/images/ev-charging-hero.png"
+                alt="Professional electrical work"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+
             <div className="inline-flex items-center gap-2 rounded-full bg-amber-100 px-4 py-2 text-sm font-medium text-amber-800">
               <Zap className="h-4 w-4" />
               From the Trade
