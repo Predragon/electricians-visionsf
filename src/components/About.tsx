@@ -22,7 +22,7 @@ const About: React.FC<AboutProps> = () => {
             {/* Hero Image */}
             <div className="rounded-2xl overflow-hidden shadow-lg">
               <img
-                src="/images/ev-charging-hero.png"
+                src="/images/ev-charging-hero.jpg"
                 alt="Professional electrical work"
                 className="w-full h-auto object-cover"
               />
