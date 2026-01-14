@@ -3,11 +3,9 @@ import { Menu, X } from 'lucide-react';
 
 const navItems = [
   { label: 'Home', href: '#home' },
-  { label: 'Services', href: '#services' },
-  { label: 'How It Works', href: '#how-it-works' },
-  { label: 'Portfolio', href: '#portfolio' },
-  { label: 'About', href: '#about' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'What You Get', href: '#services' },
+  { label: 'Why Us', href: '#about' },
+  { label: 'Reserve Spot', href: '#contact' },
 ];
 
 export default function Navigation() {
@@ -128,7 +126,7 @@ export default function Navigation() {
           onClick={() => handleNavClick('#contact')}
           className="hidden rounded-full bg-primary-600 px-6 py-2.5 text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:bg-primary-700 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 active:scale-95 md:inline-flex"
         >
-          Get Started
+          Reserve My Spot
         </a>
 
         {/* Mobile Menu Button */}
@@ -226,7 +224,7 @@ export default function Navigation() {
               className="flex w-full items-center justify-center rounded-full bg-primary-600 px-6 py-3 text-base font-semibold text-white shadow-sm transition-all duration-200 hover:bg-primary-700 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 active:scale-95"
               tabIndex={isOpen ? 0 : -1}
             >
-              Get Started
+              Reserve My Spot
             </a>
           </div>
         </nav>
