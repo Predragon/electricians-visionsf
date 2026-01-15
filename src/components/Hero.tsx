@@ -17,11 +17,21 @@ const Hero: React.FC<HeroProps> = () => {
   return (
     <section
       id="home"
-      className="relative overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"
+      className="relative overflow-hidden bg-gray-900"
     >
-      {/* Simple gradient background */}
+      {/* Hero Video Background */}
       <div className="absolute inset-0" aria-hidden="true">
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/20 via-transparent to-amber-900/10" />
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="h-full w-full object-cover"
+        >
+          <source src="/GG4.mp4" type="video/mp4" />
+        </video>
+        {/* Dark overlay for readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-gray-900/70 via-gray-900/60 to-gray-900/80" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 md:py-32 lg:px-8">
